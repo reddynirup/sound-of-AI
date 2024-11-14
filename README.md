@@ -6,9 +6,9 @@
 
 ### Tech Stack
 
-- **Frontend:** Flutter
-- **Backend:** Flask
-- **Database:** Firebase
+- **Frontend:** Reactjs
+- **Backend:** Flask,Nodejs,Express
+- **Database:** Mongodb
 - **Cloud:** AWS EC2
 - **AI/ML:** Deep Learning, CNN
 
@@ -17,7 +17,7 @@
 
 ### Folders
 
-- **application/**: Contains the Flutter application code responsible for the user interface and interactions.
+- **application/**: Contains the React application code responsible for the user interface and interactions, integrated with backend APIs and services.
 - **deep_learning_model/**: Includes the deep learning model files and scripts used for Tuberculosis sound classification using Convolutional Neural Networks (CNN).
 
 ## Features
@@ -31,9 +31,11 @@
 
 ### Prerequisites
 
-- Flutter SDK
-- Python 3.x
-- Flask
+- Node.js (for backend Express)
+- ReactJS (for frontend)
+- Python 
+- Flask (for backend integrating with DL model)
 - TensorFlow/Keras (for deep learning)
-- Firebase Account (for backend services)
+- MongoDB (for data storage)
+- AWS Account (for cloud services and EC2 deployment
 
